@@ -1,0 +1,23 @@
+#GENERAL
+export PORT=''
+export NODE_ENV=''
+export RESPONSE_LOGS=''
+
+#CORS
+export CORS_ORIGIN=''
+export CORS_METHODS=''
+
+#PROVEN DB
+export PROVENDB_USERNAME=''
+export PROVENDB_PASSWORD=''
+export COLLECTION_NAME=''
+export DB_NAME=''
+
+#ENCRYPTION
+export ENABALE_ENCRYPTION=''
+export ENCRYPTION_KEY=''
+export ENCRYPTION_IV=''
+
+
+npm run build
+npm start
