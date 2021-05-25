@@ -1,7 +1,7 @@
 import Express from 'express'
 import cors from 'cors'
 import { routes } from './routes'
-import { errorHandler, requestLogger } from './lib'
+import { errorHandler, requestLogger, setSecurityHeaders } from './lib'
 import { sendResponse } from './helpers'
 
 const app = new Express()
@@ -12,6 +12,8 @@ app.use(Express.urlencoded({ extended: true, limit: '50mb' }))
 
 // Cross Origin setup
 app.use(cors(corsOptions))
+
+setSecurityHeaders(app)
 
 // log all the request response values in cloudWatch
 app.use(requestLogger.init())

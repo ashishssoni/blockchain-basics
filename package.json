@@ -1,5 +1,5 @@
 {
-  "name": "blockchain-basics-be",
+  "name": "blockchain-basics",
   "version": "1.0.0",
   "description": "Backend API for Blockchain Basics",
   "main": "index.js",
@@ -13,17 +13,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/ashish_soni/blockchain-basics-be.git"
+    "url": "git@github.com:ashishssoni/blockchain-basics.git"
   },
-  "author": "Ashish Soni <ashish.s233@hdfclife.com>",
-  "license": "",
-  "homepage": "https://bitbucket.org/ashish_soni/blockchain-basics-be/src",
+  "author": {
+    "name": "Ashish Soni",
+    "email": "ashish.soni0696@gmail.com",
+    "url": "https://github.com/ashishssoni"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/ashishssoni/blockchain-basics/blob/master/README.md",
   "dependencies": {
     "@southbanksoftware/provendb-node-driver": "^0.1.13",
-    "axios": "^0.21.1",
     "cors": "^2.8.5",
     "express": "^4.16.1",
-    "mongoose": "^5.12.10",
+    "helmet": "^4.6.0",
+    "mongodb": "^3.6.8",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
