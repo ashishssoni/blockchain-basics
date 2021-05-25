@@ -3,15 +3,15 @@
 ## Description
 Backend of blockchain as a database in nodejs using express with ES6,ES7,ES8(using babel), ProvenDB, MonogClient, Eslint, Prettier, Githooks with Husky and lint-staged for linting and request logging with morgan.
 
-[![express](https://img.shields.io/badge/express-%5E4.16.1-orange)](https://github.com/expressjs/express)
-[![mongodb](https://img.shields.io/badge/mongodb-3.6.8-orange)](https://www.mongodb.com/)
-[![provenDB](https://img.shields.io/badge/provebdb-0.1.13-red)](https://app.provendb.com)
-[![morgan](https://img.shields.io/badge/morgan-%5E1.10.0-blue)](https://github.com/expressjs/morgan)
-[![husky](https://img.shields.io/badge/husky-%5E6.0.0-blue)](https://github.com/typicode/husky)
+[![express](https://img.shields.io/badge/express-%5E4.16.1-orange.svg)](https://github.com/expressjs/express)
+[![mongodb](https://img.shields.io/badge/mongodb-3.6.8-orange.svg)](https://www.mongodb.com/)
+[![provenDB](https://img.shields.io/badge/provebdb-0.1.13-red.svg)](https://app.provendb.com)
+[![morgan](https://img.shields.io/badge/morgan-%5E1.10.0-blue.svg)](https://github.com/expressjs/morgan)
+[![husky](https://img.shields.io/badge/husky-%5E6.0.0-blue.svg)](https://github.com/typicode/husky)
 ![node version](https://img.shields.io/badge/node-%3E%3D12.16.1-green)
 [![specification](https://img.shields.io/badge/ES8/ECMASCRIPT-2017-yellow.svg)](https://www.ecma-international.org/ecma-262/8.0/index.html)
-[![lint-staged](https://img.shields.io/badge/lint--staged-%5E11.0.0-red)](https://github.com/okonet/lint-staged)
-[![code style](https://img.shields.io/badge/eslint--config--standard-%5E16.0.2-brightgreen)](https://github.com/eslint/eslint)
+[![lint-staged](https://img.shields.io/badge/lint--staged-%5E11.0.0-red.svg)](https://github.com/okonet/lint-staged)
+[![code style](https://img.shields.io/badge/eslint--config--standard-%5E16.0.2-brightgreen.svg)](https://github.com/eslint/eslint)
 ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
 
 ## Features
