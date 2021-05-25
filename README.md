@@ -5,7 +5,7 @@ Backend of blockchain as a database in nodejs using express with ES6,ES7,ES8(usi
 
 [![express](https://img.shields.io/badge/express-%5E4.16.1-orange.svg)](https://github.com/expressjs/express)
 [![mongodb](https://img.shields.io/badge/mongodb-3.6.8-orange.svg)](https://www.mongodb.com/)
-[![provenDB](https://img.shields.io/badge/provebdb-0.1.13-red.svg)](https://app.provendb.com)
+[![provenDB](https://img.shields.io/badge/provendb-0.1.13-brightgreen.svg)](https://app.provendb.com)
 [![morgan](https://img.shields.io/badge/morgan-%5E1.10.0-blue.svg)](https://github.com/expressjs/morgan)
 [![husky](https://img.shields.io/badge/husky-%5E6.0.0-blue.svg)](https://github.com/typicode/husky)
 ![node version](https://img.shields.io/badge/node-%3E%3D12.16.1-green)
