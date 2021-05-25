@@ -1,0 +1,51 @@
+{
+  "name": "blockchain-basics-be",
+  "version": "1.0.0",
+  "description": "Backend API for Blockchain Basics",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=app:* node index.js",
+    "build": "rimraf build && npm run lint && babel ./src --out-dir build/src",
+    "dev": "DEBUG=app:* nodemon --exec babel-node index.js",
+    "lint": "eslint 'index.js' 'src/**/*.js' 'src/index.js'",
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/ashish_soni/blockchain-basics-be.git"
+  },
+  "author": "Ashish Soni <ashish.s233@hdfclife.com>",
+  "license": "",
+  "homepage": "https://bitbucket.org/ashish_soni/blockchain-basics-be/src",
+  "dependencies": {
+    "@southbanksoftware/provendb-node-driver": "^0.1.13",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.1",
+    "mongoose": "^5.12.10",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/plugin-transform-strict-mode": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "eslint": "^7.4.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "nodemon": "^2.0.4",
+    "rimraf": "^3.0.0"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint . --fix",
+      "git add ."
+    ]
+  }
+}
