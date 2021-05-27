@@ -1,6 +1,6 @@
 {
   "name": "blockchain-basics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Backend API for Blockchain Basics",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,6 @@
   "license": "MIT",
   "homepage": "https://github.com/ashishssoni/blockchain-basics/blob/master/README.md",
   "dependencies": {
-    "@southbanksoftware/provendb-node-driver": "^0.1.13",
     "cors": "^2.8.5",
     "express": "^4.16.1",
     "helmet": "^4.6.0",

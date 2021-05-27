@@ -1,4 +1,7 @@
 import helmet from 'helmet'
+import debug from 'debug'
+
+const log = debug('app:securityHeaders')
 
 function setSecurityHeaders (app) {
   app.disable('etag')
@@ -19,6 +22,7 @@ function setSecurityHeaders (app) {
       defaultSrc: ['\'self\'']
     }
   }))
+  log('Security Headers are added')
 }
 
 export { setSecurityHeaders }
